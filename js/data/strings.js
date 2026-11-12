@@ -415,7 +415,7 @@ window.STR = {
       /* tujuan pembelajaran dalam satu kalimat (permintaan kreator) */
       tujuanJudul: 'Tujuan belajar',
       tujuan: 'Setelah bermain, kamu bisa menunjukkan letak provinsi dan kabupaten/kotamu di peta Indonesia serta menyebutkan wilayah di sekitarnya dengan delapan arah mata angin.',
-      meta: 'Mata pelajaran IPAS kelas 3-4. Sekitar 20-25 menit untuk 6 level.',
+      meta: 'Mata pelajaran IPAS. Sekitar 20-25 menit untuk 6 level.',
       cara: [
         'Dengarkan Lang. Ketuk tombol dengar bila ingin mendengar lagi.',
         'Lihat mawar angin di peta. Huruf U berarti utara.',
