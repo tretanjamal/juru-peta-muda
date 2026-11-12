@@ -1,0 +1,224 @@
+﻿id,pembicara,bahasa,teks,konteks
+hook_naik,lang,id-ID,"Dari atas, desa terlihat seperti peta!","Hook: Lang terbang, kamera naik ke pandangan atas"
+hook_utara,lang,id-ID,Rumahku ada di utara. Ketuk!,Hook: ajakan mengetuk pohon sarang di utara
+hook_salah,lang,id-ID,Utara ada di atas mawar angin. Cari pohon besar di utara.,Hook: murid mengetuk tempat lain
+hook_benar,lang,id-ID,Kamu bisa membaca arah! Ayo bantu Kantor Peta.,Hook: pohon sarang diketuk
+l1_pandu1,lang,id-ID,"Di peta ini, utara ada di atas. Ketuk tempat di utara tugu.",Level 1 soal 1: dipandu tangan penunjuk
+l1_pandu2,lang,id-ID,Cari huruf T. Ketuk tempat di sebelah timur tugu.,Level 1 soal 2: dipandu tangan penunjuk
+l1_panduB,lang,id-ID,Sekarang ketuk arahnya di mawar angin.,Level 1: soal jenis B pertama
+l1_panduB2,lang,id-ID,Ketuk arahnya di mawar angin.,Level 1: murid mengetuk tempat pada soal jenis B
+l1_ulang,lang,id-ID,Ayo coba soal yang mirip.,Level 1: soal serupa di akhir level
+l1_petunjuk3,lang,id-ID,"Lihat, Lang menunjukkan tempatnya. Ketuk di sana.",Level 1: petunjuk ke-3 jenis A (Lang menunjuk tempatnya)
+l1_petunjuk3B,lang,id-ID,"Lihat, arahnya menyala di mawar angin. Ketuk di sana.",Level 1: petunjuk ke-3 jenis B (arah menyala)
+l1_selesai,lang,id-ID,Hebat! Kamu bisa memakai delapan arah mata angin.,Level 1: peta diberi cap
+l1_salah_timur,lang,id-ID,Itu barat. Timur ada di arah matahari terbit.,"Level 1: diminta timur, mengetuk barat"
+l1_salah_barat,lang,id-ID,Itu timur. Barat berlawanan dengan arah matahari terbit.,"Level 1: diminta barat, mengetuk timur"
+l1_salah_acuan,lang,id-ID,Itu titik acuannya. Cari tempat lain.,Level 1: mengetuk titik acuan
+tpl_l1_a,lang,id-ID,Ketuk tempat di sebelah {arah} {acuan}.,"templat: soal jenis A, {arah} = nama arah, {acuan} = nama tempat"
+tpl_l1_b,lang,id-ID,{Tempat} ada di sebelah mana dari {acuan}?,"templat: soal jenis B, {Tempat} = nama tempat berhuruf besar di awal"
+tpl_l1_benar,lang,id-ID,Benar! {Tempat} ada di sebelah {arah} {acuan}.,templat: jawaban benar
+tpl_l1_berlawanan,lang,id-ID,Itu {kebalikan}. {Arah} ada di arah yang berlawanan.,templat: arah berlawanan
+tpl_l1_antara,lang,id-ID,{Arah} ada di antara {a} dan {b}.,templat: arah antara dianggap arah utama
+tpl_l1_utama,lang,id-ID,Itu {ketuk}. Cari huruf {singkat} di mawar angin.,"templat: diminta arah utama, mengetuk arah antara"
+tpl_l1_lain,lang,id-ID,Lihat mawar angin lagi. Cari huruf {singkat}.,"templat: arah lain, {singkat} = huruf arah"
+tpl_l1_acuan,lang,id-ID,"Lihat dari {acuan}, bukan dari tugu.","templat: arah dibaca dari tugu, bukan dari titik acuan"
+tpl_l1_petunjuk2,lang,id-ID,Lihat garis bantu dari {acuan}. Arah {arah} menyala.,templat: petunjuk ke-2 (garis bantu)
+l2_judul_tanya,lang,id-ID,Peta ini menggambarkan apa?,Level 2 Baca Peta (l2.judul.tanya)
+l2_judul_salahKota,lang,id-ID,Kota Pelangi hanya ibu kotanya. Lihat judul peta.,Level 2 Baca Peta (l2.judul.salahKota)
+l2_judul_salahLaut,lang,id-ID,Laut Camar adalah nama laut. Lihat judul peta.,Level 2 Baca Peta (l2.judul.salahLaut)
+l2_judul_benar,lang,id-ID,Benar! Judul peta menyebut Provinsi Pulau Latihan.,Level 2 Baca Peta (l2.judul.benar)
+l2_ibukota_tanya,lang,id-ID,"Cari simbol ibu kota provinsi di legenda, lalu ketuk di peta.",Level 2 Baca Peta (l2.ibukota.tanya)
+l2_ibukota_benar,lang,id-ID,Benar! Bintang adalah simbol ibu kota provinsi.,Level 2 Baca Peta (l2.ibukota.benar)
+l2_ibukota_salah,lang,id-ID,Itu {fitur}. Simbol ibu kota adalah bintang.,Level 2 Baca Peta (l2.ibukota.salah)
+l2_batas_tanya,lang,id-ID,Ketuk garis batas provinsi di peta.,Level 2 Baca Peta (l2.batas.tanya)
+l2_batas_benar,lang,id-ID,Benar! Batas provinsi adalah garis tebal.,Level 2 Baca Peta (l2.batas.benar)
+l2_batas_salah,lang,id-ID,"Itu batas kabupaten/kota, garis putus-putus. Cari garis tebal.",Level 2 Baca Peta (l2.batas.salah)
+l2_batas_salahLain,lang,id-ID,Itu {fitur}. Cari garis tebal di legenda.,Level 2 Baca Peta (l2.batas.salahLain)
+l2_simbol_gunung,lang,id-ID,Ketuk gunung di peta.,Level 2 Baca Peta (l2.simbol.gunung)
+l2_simbol_sungai,lang,id-ID,Ketuk sungai di peta.,Level 2 Baca Peta (l2.simbol.sungai)
+l2_simbol_benar,lang,id-ID,Benar! Itu simbol {fitur}.,Level 2 Baca Peta (l2.simbol.benar)
+l2_simbol_salah,lang,id-ID,Itu {fitur}. Cari simbol {target} di legenda.,Level 2 Baca Peta (l2.simbol.salah)
+l2_skala_tanya,lang,id-ID,Berapa jarak {A} ke {B}?,Level 2 Baca Peta (l2.skala.tanya)
+l2_skala_salahRuas,lang,id-ID,Itu jumlah ruasnya. Satu ruas sama dengan 10 km.,Level 2 Baca Peta (l2.skala.salahRuas)
+l2_skala_salahHitung,lang,id-ID,Hitung lagi ruas pada penggaris. Satu ruas 10 km.,Level 2 Baca Peta (l2.skala.salahHitung)
+l2_skala_benar,lang,id-ID,Benar! {n} ruas kali 10 km sama dengan {km} km.,Level 2 Baca Peta (l2.skala.benar)
+l2_putar_tanya,lang,id-ID,Peta ini diputar. Ketuk wilayah di sebelah {arah} Kota Pelangi.,Level 2 Baca Peta (l2.putar.tanya)
+l2_putar_salahAtas,lang,id-ID,"Peta diputar. Utara ada di arah huruf U, bukan di atas layar.",Level 2 Baca Peta (l2.putar.salahAtas)
+l2_putar_salah,lang,id-ID,Lihat mawar angin yang ikut berputar. Cari huruf {singkat}.,Level 2 Baca Peta (l2.putar.salah)
+l2_putar_benar,lang,id-ID,Benar! {T} ada di sebelah {arah} Kota Pelangi.,Level 2 Baca Peta (l2.putar.benar)
+l2_petunjuk2,lang,id-ID,Lihat legenda yang menyala.,Level 2 Baca Peta (l2.petunjuk2)
+l2_petunjuk2Putar,lang,id-ID,Lihat garis bantu dari Kota Pelangi. Arah {arah} menyala.,Level 2 Baca Peta (l2.petunjuk2Putar)
+l2_petunjuk3,lang,id-ID,Lang menunjukkan jawabannya.,Level 2 Baca Peta (l2.petunjuk3)
+l2_selesai,lang,id-ID,"Hebat! Kamu bisa membaca judul, legenda, dan skala peta.",Level 2 Baca Peta (l2.selesai)
+l3_mulai_0,lang,id-ID,Angin menerbangkan nama di peta ini. Ayo tempel lagi!,Level 3 Teka-teki Pulau (l3.mulai)
+l3_mulai_1,lang,id-ID,Pulau Seberang juga kehilangan nama. Petunjuknya berantai!,Level 3 Teka-teki Pulau (l3.mulai)
+l3_lengkap,lang,id-ID,Peta lengkap! Kantor Peta memberi cap.,Level 3 Teka-teki Pulau (l3.lengkap)
+l3_selesai,lang,id-ID,Hebat! Kamu bisa menemukan wilayah dari petunjuk.,Level 3 Teka-teki Pulau (l3.selesai)
+teka_arah,lang,id-ID,{T} ada di sebelah {arah} {R}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.arah)"
+teka_batas,lang,id-ID,{T} berbatasan langsung dengan {R}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.batas)"
+teka_arahPantai,lang,id-ID,{T} ada di sebelah {arah} {R} dan berbatasan dengan laut.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.arahPantai)"
+teka_batasPantai,lang,id-ID,{T} berbatasan dengan {R} dan dengan laut.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.batasPantai)"
+teka_batasDarat,lang,id-ID,"{T} berbatasan dengan {R}, tetapi tidak berbatasan dengan laut.","Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.batasDarat)"
+teka_mengelilingi,lang,id-ID,{T} mengelilingi {R}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.mengelilingi)"
+teka_dikelilingi,lang,id-ID,{T} dikelilingi oleh {R}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.dikelilingi)"
+teka_laut,lang,id-ID,"{T} ada di seberang laut, di sebelah {arah} {R}.","Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.laut)"
+teka_lautSaja,lang,id-ID,{T} dipisahkan oleh laut dari {R}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.lautSaja)"
+teka_ciri,lang,id-ID,{T} {ciri}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.ciri)"
+teka_pedalaman,lang,id-ID,{T} tidak berbatasan dengan laut.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.pedalaman)"
+teka_terkunci,lang,id-ID,Kartu ini belum bisa ditebak. Pasang kartu lain dulu.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.terkunci)"
+teka_sudahBernama,lang,id-ID,Wilayah itu sudah bernama.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.sudahBernama)"
+teka_pilihDulu,lang,id-ID,Pilih kartu nama dulu.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.pilihDulu)"
+teka_instruksi,lang,id-ID,"Baca kartu petunjuk, lalu tempel kartu nama di peta.","Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.instruksi)"
+teka_benar,lang,id-ID,Tepat! Kartu menempel di peta.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.benar)"
+teka_salah_berlawanan,lang,id-ID,Itu di sebelah {ketuk} {R}. Cari di arah sebaliknya.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.berlawanan)"
+teka_salah_arahUtama,lang,id-ID,Itu di sebelah {ketuk}. Cari huruf {singkat} di mawar angin.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.arahUtama)"
+teka_salah_arahLain,lang,id-ID,Itu di sebelah {ketuk} {R}. Cari arah {arah}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.arahLain)"
+teka_salah_pantaiTidak,lang,id-ID,Wilayah itu tidak berbatasan dengan laut.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.pantaiTidak)"
+teka_salah_pantaiYa,lang,id-ID,Wilayah itu berbatasan dengan laut.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.pantaiYa)"
+teka_salah_bukanTetangga,lang,id-ID,Wilayah itu tidak bersentuhan dengan {R}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.bukanTetangga)"
+teka_salah_tidakKeliling,lang,id-ID,Wilayah itu tidak mengelilingi {R}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.tidakKeliling)"
+teka_salah_tidakDalam,lang,id-ID,Wilayah itu tidak berada di dalam {R}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.tidakDalam)"
+teka_salah_bukanLaut,lang,id-ID,Wilayah itu tidak dipisahkan laut dari {R}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.bukanLaut)"
+teka_salah_ciri,lang,id-ID,Cari wilayah yang {ciri}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.ciri)"
+teka_salah_acuan,lang,id-ID,Itu wilayah acuannya. Cari wilayah lain.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.acuan)"
+teka_salah_umum,lang,id-ID,Baca lagi kartu petunjuknya.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.salah.umum)"
+teka_petunjuk2_arah,lang,id-ID,Lihat garis bantu dari {R}. Arah {arah} menyala.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.petunjuk2.arah)"
+teka_petunjuk2_acuan,lang,id-ID,"Lihat {R} yang menyala, lalu baca petunjuknya lagi.","Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.petunjuk2.acuan)"
+teka_petunjuk2_ciri,lang,id-ID,Lihat bagian peta yang menyala.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.petunjuk2.ciri)"
+teka_petunjuk2_pedalaman,lang,id-ID,Cari wilayah yang tidak menyentuh laut sama sekali.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.petunjuk2.pedalaman)"
+teka_petunjuk3,lang,id-ID,Lang menunjukkan wilayahnya. Tempel kartunya di sana.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.petunjuk3)"
+teka_petunjuk3Tanya,lang,id-ID,Tangan menunjukkan wilayahnya. Ketuk di sana.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.petunjuk3Tanya)"
+teka_tanya,lang,id-ID,Ketuk wilayah di sebelah {arah} {R}.,"Kartu petunjuk dan papan teka-teki L3/L5; {T} kartu, {R} acuan, {arah}, {ciri} (teka.tanya)"
+l4_gagalMuat,lang,id-ID,Peta Indonesia belum bisa dibuka. Coba lagi.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.gagalMuat)"
+l4_jenjang_ajak,lang,id-ID,Ketuk nama untuk kotak yang menyala. Mulai dari yang terbesar.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.ajak)"
+l4_jenjang_benar,lang,id-ID,Tepat! {nama} ada di dalam kotak yang lebih besar.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.benar)"
+l4_jenjang_benarTerbesar,lang,id-ID,Tepat! Indonesia adalah kotak terbesar.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.benarTerbesar)"
+l4_jenjang_salahKecil,lang,id-ID,Kotak ini lebih besar. {pilihan} ada di dalamnya.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.salahKecil)"
+l4_jenjang_salahBesar,lang,id-ID,{pilihan} lebih besar. Kotak luarnya sudah terisi.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.salahBesar)"
+l4_jenjang_petunjuk2,lang,id-ID,Lihat nama yang menyala.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.petunjuk2)"
+l4_jenjang_petunjuk3,lang,id-ID,Lang menunjukkan namanya. Ketuk nama itu.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.petunjuk3)"
+l4_jenjang_banyak,lang,id-ID,Satu provinsi memuat banyak kabupaten dan kota.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.banyak)"
+l4_jenjang_kotaKab_soal_0_tanya,lang,id-ID,Siapa yang memimpin sebuah kota?,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.kotaKab.soal.0.tanya)"
+l4_jenjang_kotaKab_soal_0_benar,lang,id-ID,Benar! Kota dipimpin wali kota.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.kotaKab.soal.0.benar)"
+l4_jenjang_kotaKab_soal_0_salah_1,lang,id-ID,Bupati memimpin kabupaten. Kota dipimpin wali kota.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.kotaKab.soal.0.salah)"
+l4_jenjang_kotaKab_soal_0_salah_2,lang,id-ID,Gubernur memimpin provinsi. Kota dipimpin wali kota.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.kotaKab.soal.0.salah)"
+l4_jenjang_kotaKab_soal_1_tanya,lang,id-ID,Mana yang biasanya lebih luas dan punya banyak desa?,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.kotaKab.soal.1.tanya)"
+l4_jenjang_kotaKab_soal_1_benar,lang,id-ID,Benar! Kabupaten lebih luas dan punya banyak desa.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.kotaKab.soal.1.benar)"
+l4_jenjang_kotaKab_soal_1_salah_1,lang,id-ID,Kota umumnya perkotaan dan tidak seluas kabupaten. Kabupaten punya banyak desa.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.kotaKab.soal.1.salah)"
+l4_jenjang_kotaKab_soal_1_salah_2,lang,id-ID,"Kecamatan lebih kecil, bagian dari kabupaten atau kota. Kabupaten luas dan punya banyak desa.","Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.jenjang.kotaKab.soal.1.salah)"
+l4_pulau_ajak,lang,id-ID,Provinsimu ada di kelompok pulau mana? Ketuk kelompok pulaunya.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.pulau.ajak)"
+l4_provinsi_ajak,lang,id-ID,Ketuk provinsimu di peta atau di daftar.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.provinsi.ajak)"
+l4_provinsi_tanya,lang,id-ID,Provinsi {P}. Benar ini provinsimu?,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.provinsi.tanya)"
+l4_kab_ajak,lang,id-ID,Ketuk kabupaten atau kotamu di peta atau di daftar.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.kab.ajak)"
+l4_kab_tanya,lang,id-ID,"{K}, Provinsi {P}. Benar ini wilayahmu?","Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.kab.tanya)"
+l4_kembar_isi,lang,id-ID,{A} dan {B} adalah dua wilayah yang berbeda. Lihat batasnya di peta.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.kembar.isi)"
+l4_kembar_beda,lang,id-ID,"Kota dipimpin wali kota dan umumnya perkotaan. Kabupaten dipimpin bupati, lebih luas, dan punya banyak desa.","Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.kembar.beda)"
+l4_kembar_pilih,lang,id-ID,Wilayahmu yang mana?,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.kembar.pilih)"
+l4_guruCek_provBenar,lang,id-ID,Tepat! Itu provinsi kelas kita.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.guruCek.provBenar)"
+l4_guruCek_kabBenar,lang,id-ID,Tepat! Itu wilayah kelas kita.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.guruCek.kabBenar)"
+l4_guruCek_provSalah,lang,id-ID,Bukan itu. Provinsi kelas kita ada di {pulau}.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.guruCek.provSalah)"
+l4_guruCek_kabSalah,lang,id-ID,Bukan itu. Coba ketuk wilayah lain.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.guruCek.kabSalah)"
+l4_guruCek_kembar,lang,id-ID,Hampir! {A} dan {B} berbeda. Coba yang satunya.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.guruCek.kembar)"
+l4_temukan_ajakProv,lang,id-ID,Sekarang temukan lagi provinsimu di peta tanpa nama.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.temukan.ajakProv)"
+l4_temukan_ajakKab,lang,id-ID,Temukan lagi wilayahmu di peta provinsi tanpa nama.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.temukan.ajakKab)"
+l4_temukan_benarProv,lang,id-ID,Hebat! Itu Provinsi {P}.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.temukan.benarProv)"
+l4_temukan_benarKab,lang,id-ID,Hebat! Itu {K}.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.temukan.benarKab)"
+l4_temukan_salahProv,lang,id-ID,Bukan itu. Provinsimu ada di kelompok pulau {pulau}.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.temukan.salahProv)"
+l4_temukan_salahKab,lang,id-ID,Itu {X}. Wilayahmu ada di sebelah {arah} wilayah itu.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.temukan.salahKab)"
+l4_temukan_salahKabUmum,lang,id-ID,"Itu {X}. Wilayahmu ada di tempat lain, lihat lagi petanya.","Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.temukan.salahKabUmum)"
+l4_temukan_petunjuk2Prov,lang,id-ID,Lihat pulau yang menyala. Provinsimu ada di sana.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.temukan.petunjuk2Prov)"
+l4_temukan_petunjuk2Kab,lang,id-ID,Lihat wilayah yang menyala. Wilayahmu salah satunya.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.temukan.petunjuk2Kab)"
+l4_temukan_petunjuk3,lang,id-ID,Lang menunjukkan tempatnya. Ketuk di sana.,"Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.temukan.petunjuk3)"
+l4_akhir_kata,lang,id-ID,"Inilah wilayahmu, dari Indonesia sampai desamu!","Level 4 Dari Indonesia ke Rumahku; {P} provinsi, {K} kabupaten/kota, {pulau} kelompok pulau (l4.akhir.kata)"
+l5_mulai,lang,id-ID,Nama tetangga {K} terbang tertiup angin. Ayo tempel lagi!,Level 5 Puzzle Provinsiku; {K} wilayah murid (l5.mulai)
+l5_lengkap,lang,id-ID,Peta tetanggamu lengkap! Kantor Peta memberi cap.,Level 5 Puzzle Provinsiku; {K} wilayah murid (l5.lengkap)
+l5_detektif,lang,id-ID,Sekarang jadi detektif! Jawab pertanyaan tentang wilayahmu.,Level 5 Puzzle Provinsiku; {K} wilayah murid (l5.detektif)
+l5_selesai,lang,id-ID,Hebat! Kamu mengenal tetangga wilayahmu.,Level 5 Puzzle Provinsiku; {K} wilayah murid (l5.selesai)
+l5_belumPilih,lang,id-ID,"Pilih wilayahmu dulu di Level 4, ya.",Level 5 Puzzle Provinsiku; {K} wilayah murid (l5.belumPilih)
+l5_tunjuk,lang,id-ID,"Lihat, tangan menunjukkan jawabannya.",Level 5 Puzzle Provinsiku; {K} wilayah murid (l5.tunjuk)
+l5_pilihJawaban,lang,id-ID,"Baca pertanyaannya, lalu pilih jawabanmu.",Level 5 Puzzle Provinsiku; {K} wilayah murid (l5.pilihJawaban)
+l6_mulai,lang,id-ID,Ayo jelajah Nusantara! Temukan provinsi dari petunjuk pulau dan arah.,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.mulai)"
+l6_instruksi,lang,id-ID,"Baca petunjuk di kartu, lalu ketuk provinsinya di peta.","Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.instruksi)"
+l6_kalimat_arah,lang,id-ID,"Provinsi ini ada di kelompok pulau {pulau}, di sebelah {arah} Provinsi {R}.","Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.kalimat.arah)"
+l6_kalimat_batasArah,lang,id-ID,"Provinsi ini ada di kelompok pulau {pulau}, di sebelah {arah} Provinsi {R}, dan berbatasan langsung dengannya.","Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.kalimat.batasArah)"
+l6_kalimat_batasDua,lang,id-ID,Provinsi ini ada di kelompok pulau {pulau} dan berbatasan dengan Provinsi {R} serta Provinsi {R2}.,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.kalimat.batasDua)"
+l6_kalimat_sisa,lang,id-ID,"Provinsi ini ada di kelompok pulau {pulau}, tetapi bukan Provinsi {R}.","Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.kalimat.sisa)"
+l6_benar,lang,id-ID,Benar! Itu Provinsi {P}.,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.benar)"
+l6_salahPulau,lang,id-ID,Provinsi itu ada di kelompok pulau {pulauX}. Cari di {pulau}.,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.salahPulau)"
+l6_salahBerlawanan,lang,id-ID,Provinsi itu ada di sebelah {ketuk} Provinsi {R}. Cari di arah sebaliknya.,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.salahBerlawanan)"
+l6_salahArah,lang,id-ID,Provinsi itu ada di sebelah {ketuk} Provinsi {R}. Cari di sebelah {arah}.,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.salahArah)"
+l6_salahBatas,lang,id-ID,Provinsi itu tidak berbatasan dengan Provinsi {R}.,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.salahBatas)"
+l6_salahUmum,lang,id-ID,"Baca lagi petunjuknya, lalu lihat peta.","Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.salahUmum)"
+l6_acuan,lang,id-ID,"Itu Provinsi {R}, provinsi acuannya. Cari provinsi lain.","Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.acuan)"
+l6_petunjuk2,lang,id-ID,Lihat kelompok pulau yang menyala dan provinsi acuannya.,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.petunjuk2)"
+l6_petunjuk3,lang,id-ID,Lang menunjukkan provinsinya. Ketuk di sana.,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.petunjuk3)"
+l6_bonus,lang,id-ID,Bonus waktu,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.bonus)"
+l6_bonusHabis,lang,id-ID,"Waktu bonus habis. Tetap lanjutkan, ya!","Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.bonusHabis)"
+l6_santai,lang,id-ID,Mode Santai: tanpa waktu,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.santai)"
+l6_soalUlang,lang,id-ID,Ayo cari provinsi yang mirip.,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.soalUlang)"
+l6_selesai,lang,id-ID,Hebat! Kamu bisa menjelajah provinsi di seluruh Nusantara.,"Level 6 Jelajah Nusantara; {pulau} kelompok pulau, {R} provinsi acuan, {P} provinsi (l6.selesai)"
+detektif_ajak,lang,id-ID,Sekarang jadi detektif! Jawab 5 pertanyaan tentang wilayahmu.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.ajak)"
+detektif_tetanggaDiArah,lang,id-ID,Wilayah mana yang berbatasan dengan {K} di sebelah {arah}?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.tetanggaDiArah)"
+detektif_tetanggaDiArahLaut,lang,id-ID,"Wilayah mana yang ada di seberang laut, di sebelah {arah} {K}?","Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.tetanggaDiArahLaut)"
+detektif_arahTetangga,lang,id-ID,{T} ada di sebelah mana dari {K}?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.arahTetangga)"
+detektif_arahIbukota,lang,id-ID,"{I}, ibu kota provinsimu, ada di sebelah mana dari {K}?","Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.arahIbukota)"
+detektif_provinsiTetangga,lang,id-ID,Provinsi mana yang berbatasan dengan {K}?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.provinsiTetangga)"
+detektif_pantaiYa,lang,id-ID,Mana yang berbatasan dengan laut?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.pantaiYa)"
+detektif_pantaiTidak,lang,id-ID,Mana yang tidak berbatasan dengan laut?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.pantaiTidak)"
+detektif_mengelilingi,lang,id-ID,Wilayah mana yang dikelilingi oleh {K}?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.mengelilingi)"
+detektif_dikelilingi,lang,id-ID,{K} dikelilingi oleh wilayah mana?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.dikelilingi)"
+detektif_jumlahTetangga,lang,id-ID,Berapa kabupaten dan kota yang berbatasan darat dengan {K}?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.jumlahTetangga)"
+detektif_ibukotaProvinsi,lang,id-ID,Apa nama ibu kota Provinsi {P}?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.ibukotaProvinsi)"
+detektif_tetanggaYa,lang,id-ID,Mana yang berbatasan langsung dengan {K}?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.tetanggaYa)"
+detektif_tetanggaBukan,lang,id-ID,Mana yang tidak berbatasan dengan {K}?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.tetanggaBukan)"
+detektif_arahDariTetangga,lang,id-ID,{K} ada di sebelah mana dari {T}?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.arahDariTetangga)"
+detektif_provinsiku,lang,id-ID,{K} ada di provinsi mana?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.provinsiku)"
+detektif_pulau,lang,id-ID,Provinsi {P} ada di kelompok pulau mana?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.pulau)"
+detektif_benar_tetanggaYa,lang,id-ID,Benar! {T} berbatasan langsung dengan {K}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.tetanggaYa)"
+detektif_benar_tetanggaBukan,lang,id-ID,Benar! {T} tidak bersentuhan dengan {K}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.tetanggaBukan)"
+detektif_benar_provinsiku,lang,id-ID,Benar! {K} ada di Provinsi {P}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.provinsiku)"
+detektif_benar_pulau,lang,id-ID,Benar! Provinsi {P} ada di kelompok pulau {I}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.pulau)"
+detektif_benar_arah,lang,id-ID,Benar! {T} ada di sebelah {arah} {K}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.arah)"
+detektif_benar_arahIbukota,lang,id-ID,Benar! {I} ada di sebelah {arah} {K}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.arahIbukota)"
+detektif_benar_provinsiTetangga,lang,id-ID,Benar! {K} berbatasan dengan Provinsi {P}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.provinsiTetangga)"
+detektif_benar_pantaiYa,lang,id-ID,Benar! {T} berbatasan dengan laut.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.pantaiYa)"
+detektif_benar_pantaiTidak,lang,id-ID,Benar! {T} tidak berbatasan dengan laut.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.pantaiTidak)"
+detektif_benar_mengelilingi,lang,id-ID,Benar! {T} dikelilingi oleh {K}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.mengelilingi)"
+detektif_benar_dikelilingi,lang,id-ID,Benar! {K} dikelilingi oleh {T}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.dikelilingi)"
+detektif_benar_jumlahTetangga,lang,id-ID,Benar! Ada {n} wilayah yang bersentuhan dengan {K}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.jumlahTetangga)"
+detektif_benar_jumlahNol,lang,id-ID,Benar! {K} tidak bersentuhan darat dengan wilayah lain. Semua sisinya laut.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.jumlahNol)"
+detektif_benar_ibukotaProvinsi,lang,id-ID,Benar! Ibu kota Provinsi {P} adalah {I}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.benar.ibukotaProvinsi)"
+detektif_salah_arah,lang,id-ID,{X} ada di sebelah {arahX}. Cari yang di sebelah {arah}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.arah)"
+detektif_salah_arahUmum,lang,id-ID,{X} tidak di sebelah {arah}. Lihat mawar angin.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.arahUmum)"
+detektif_salah_bukan_tetangga,lang,id-ID,{X} tidak bersentuhan dengan {K}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.bukan-tetangga)"
+detektif_salah_bersentuhan,lang,id-ID,{X} bersentuhan dengan {K}. Lihat garis batasnya.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.bersentuhan)"
+detektif_salah_provinsi_lain,lang,id-ID,Lihat judul peta. Nama provinsimu tertulis di sana.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.provinsi-lain)"
+detektif_salah_pulau_lain,lang,id-ID,Ingat peta Indonesia. Cari kelompok pulau tempat provinsimu.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.pulau-lain)"
+detektif_salah_berlawanan,lang,id-ID,Itu arah sebaliknya. Lihat lagi mawar angin.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.berlawanan)"
+detektif_salah_arah_lain,lang,id-ID,"Lihat mawar angin, lalu bandingkan letaknya.","Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.arah-lain)"
+detektif_salah_provinsi_bukan_tetangga,lang,id-ID,Provinsi {X} tidak bersentuhan dengan {K}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.provinsi-bukan-tetangga)"
+detektif_salah_pantaiYa,lang,id-ID,{X} berbatasan dengan laut.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.pantaiYa)"
+detektif_salah_pantaiTidak,lang,id-ID,{X} tidak berbatasan dengan laut.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.pantaiTidak)"
+detektif_salah_tidakDalam,lang,id-ID,{X} tidak berada di dalam {K}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.tidakDalam)"
+detektif_salah_tidakKeliling,lang,id-ID,{X} tidak mengelilingi {K}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.tidakKeliling)"
+detektif_salah_hitung,lang,id-ID,Hitung lagi semua wilayah yang bersentuhan dengan {K}.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.hitung)"
+detektif_salah_hitungNol,lang,id-ID,Lihat lagi: apakah ada daratan lain yang bersentuhan dengan {K}?,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.hitungNol)"
+detektif_salah_ibukota_provinsi,lang,id-ID,{P} adalah nama provinsinya. Ibu kotanya ditandai bintang.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.ibukota-provinsi)"
+detektif_salah_bukan_ibukota,lang,id-ID,{X} bukan ibu kota provinsi. Cari simbol bintang.,"Detektif Letak L5; {K} wilayah murid, {T} wilayah lain, {I} ibu kota, {P} provinsi, {X} pilihan murid (detektif.salah.bukan-ibukota)"
+isi_arah_U,isian,id-ID,utara,"isian {arah}, {a}, {b}, {kebalikan}, {ketuk}"
+isi_arah_TL,isian,id-ID,timur laut,"isian {arah}, {a}, {b}, {kebalikan}, {ketuk}"
+isi_arah_T,isian,id-ID,timur,"isian {arah}, {a}, {b}, {kebalikan}, {ketuk}"
+isi_arah_TG,isian,id-ID,tenggara,"isian {arah}, {a}, {b}, {kebalikan}, {ketuk}"
+isi_arah_S,isian,id-ID,selatan,"isian {arah}, {a}, {b}, {kebalikan}, {ketuk}"
+isi_arah_BD,isian,id-ID,barat daya,"isian {arah}, {a}, {b}, {kebalikan}, {ketuk}"
+isi_arah_B,isian,id-ID,barat,"isian {arah}, {a}, {b}, {kebalikan}, {ketuk}"
+isi_arah_BL,isian,id-ID,barat laut,"isian {arah}, {a}, {b}, {kebalikan}, {ketuk}"
+isi_tempat_tugu,isian,id-ID,tugu,isian {acuan} dan {Tempat}
+isi_tempat_pohon,isian,id-ID,pohon sarang,isian {acuan} dan {Tempat}
+isi_tempat_pasar,isian,id-ID,pasar,isian {acuan} dan {Tempat}
+isi_tempat_sekolah,isian,id-ID,sekolah,isian {acuan} dan {Tempat}
+isi_tempat_sawah,isian,id-ID,sawah,isian {acuan} dan {Tempat}
+isi_tempat_kolam,isian,id-ID,kolam ikan,isian {acuan} dan {Tempat}
+isi_tempat_puskesmas,isian,id-ID,puskesmas,isian {acuan} dan {Tempat}
+isi_tempat_lapangan,isian,id-ID,lapangan,isian {acuan} dan {Tempat}
+isi_tempat_balai,isian,id-ID,balai desa,isian {acuan} dan {Tempat}
