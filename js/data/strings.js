@@ -465,7 +465,7 @@ window.STR = {
       judul: 'Pengembang',
       /* satu halaman per pengembang, berpindah dengan tombol panah (pola gim 107) */
       orang: [
-        { foto: 'pengembang', fotoAlt: 'Foto Jamaluddin', nama: 'Jamaluddin', baris: ['UPTD SMPN 2 Robatal', 'jamaluddin551@guru.smp.belajar.id', 'Tahun pembuatan: 2026'],
+        { foto: 'pengembang', fotoAlt: 'Foto Jamaluddin', nama: 'Jamaluddin', baris: ['UPTD SMPN 2 Robatal', 'jamaluddin551@guru.smp.belajar.id', 'Instagram: @tretanjamal', 'Tahun pembuatan: 2026'],
           daftarJudul: 'Prestasi dan Pengalaman',
           daftar: [
             'Narasumber Digitalisasi Pembelajaran Kemendikdasmen',
