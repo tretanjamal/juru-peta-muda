@@ -15,6 +15,7 @@ Gim Edukasi IPAS Fase B, ID 255. Kreator: Jamaluddin, UPTD SMPN 2 Robatal. Tahun
   - SVG lama tetap menjadi cadangan bila gambar tidak termuat.
 - Foto pengembang: milik kreator (`assets/img/pengembang.webp`), diolah dari foto kreator `jamal.png` (dipotong persegi kepala dan bahu, 360 x 360, WebP) oleh `tools/aset/olah-aset.js`.
 - Foto pengembang kedua: milik Rimawan Haritzah, S.Pd. (Guru SD Negeri Kauman Bantul), `assets/img/pengembang-2.webp`, diolah dari `Rimawan Haritzah.jpe` (dipotong persegi kepala dan bahu, 360 x 360, WebP) oleh `tools/aset/olah-aset.js`.
+- Logo Instagram (`assets/img/ikon-instagram.webp`): diberikan kreator (`Instagram_icon.png`), dikecilkan menjadi 96 x 96 WebP oleh `tools/aset/olah-aset.js`. Merek dagang milik Meta Platforms, Inc., dipakai hanya untuk menandai akun Instagram pengembang.
 
 ## Suara dan musik
 - Musik latar "tema judul" dan "tema bermain" serta jingle "peta lengkap" dan "hasil" dibuat kreator pada 10 November 2026 dengan layanan pembuat musik kecerdasan artifisial memakai prompt di `docs/ASET-PROMPT.md` bagian B3 (nama layanan dan lisensinya perlu dilengkapi kreator). Diolah oleh `tools/aset/olah-aset.js`: dicampur mono, loop mulus dengan pudar-silang satu birama, dinormalkan, MP3 mono 96 kbps (encoder bawaan Windows), lalu dibungkus `js/data/musik_*.js` supaya jalan lewat `file://`.
