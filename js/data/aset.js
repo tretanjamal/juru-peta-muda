@@ -5,6 +5,8 @@ window.ASET = {
   gambar: {
     pengembang: 'assets/img/pengembang.webp',
     pengembang2: 'assets/img/pengembang-2.webp',
+    /* logo Instagram dari kreator, untuk akun di menu Pengembang */
+    instagram: 'assets/img/ikon-instagram.webp',
     /* latar Kantor Peta 1280x720 (gambar AI, acuan gaya) */
     kantorPeta: 'assets/img/kantor-peta.webp',
     /* perlengkapan Kantor Peta, hadiah L1-L5 (latar transparan) */

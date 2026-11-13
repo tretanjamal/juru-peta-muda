@@ -281,11 +281,17 @@
         var ke = 0, n = D.orang.length;
         var bingkai = U.h('div', 'bingkai-pengembang'), kartu = U.h('div', 'kartu-pengembang'), titik = U.h('div', 'titik-pengembang');
         kartu.setAttribute('data-cek', 'info pengembang'); kartu.setAttribute('aria-live', 'polite');
+        /* satu baris data: teks biasa, atau logo kecil + teks (mis. akun Instagram); tanpa logo, nama layanan ditulis */
+        var baris1 = function (x) {
+          if (typeof x === 'string') return '<span>' + esc(x) + '</span>';
+          var src = Seni.gambar(x.ikon);
+          return '<span class="baris-ikon">' + (src ? '<img src="' + src + '" alt="' + esc(x.alt) + '">' : esc(x.alt) + ': ') + esc(x.teks) + '</span>';
+        };
         var tampil = function (k) {
           ke = k;
           var p = D.orang[k], foto = Seni.gambar(p.foto);
           kartu.innerHTML = '<div class="foto-pengembang">' + (foto ? '<img src="' + foto + '" alt="' + esc(p.fotoAlt) + '">' : Seni.potret(190, 'senang')) + '</div>' +
-            '<div class="data-pengembang"><b class="nama-pengembang">' + esc(p.nama) + '</b>' + p.baris.map(function (x) { return '<span>' + esc(x) + '</span>'; }).join('') + '</div>' +
+            '<div class="data-pengembang"><b class="nama-pengembang">' + esc(p.nama) + '</b>' + p.baris.map(baris1).join('') + '</div>' +
             (p.daftar ? '<div class="prestasi"><b>' + esc(p.daftarJudul) + '</b>' + daftar(p.daftar) + '</div>' : '');
           kiri.disabled = k === 0; kanan.disabled = k === n - 1;
           titik.innerHTML = D.orang.map(function (x, j) { return '<span class="' + (j === k ? 'aktif' : '') + '"></span>'; }).join('');

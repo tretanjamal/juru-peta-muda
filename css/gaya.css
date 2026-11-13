@@ -155,6 +155,8 @@ button { font-family: inherit; color: inherit; }
 .foto-pengembang { width: 200px; height: 200px; border-radius: 50%; overflow: hidden; border: 5px solid var(--tinta); background: var(--pasir-terang); box-shadow: 0 6px 0 var(--bayang); }
 .foto-pengembang img, .foto-pengembang svg { display: block; width: 100%; height: 100%; object-fit: cover; }
 .data-pengembang { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.baris-ikon { display: flex; align-items: center; gap: 8px; }
+.baris-ikon img { width: 28px; height: 28px; flex: none; }
 .nama-pengembang { font: 700 44px/1.1 var(--font-judul); }
 .prestasi { grid-column: 1 / -1; }
 .prestasi .daftar-info { margin-top: 6px; }
